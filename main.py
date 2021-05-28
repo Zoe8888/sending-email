@@ -9,7 +9,7 @@ subject = "Greetings"
 msg = MIMEMultipart()
 msg['From'] = sender_email_id
 msg['To'] = receiver_email_id
-msg['Subject']=subject
+msg['Subject'] = subject
 body = "Good afternoon gentlemen.\n"
 body = body + "Today is a wonderful day and I hope the weekend goes even better."
 msg.attach(MIMEText(body, 'plain'))
